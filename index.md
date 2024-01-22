@@ -12,7 +12,7 @@ layout: default
   <button class="filter-button" data-category="robotics">Robotics</button>
 </div>
 <div class="grid grid-1">{% for post in site.posts %}
-      <a class="item" data-category="{{ post.categories | join: ' ' }}" href="{{ site.url }}{{ post.url }}">
+      <a class="item project" data-category="{{ post.categories | join: ' ' }}" href="{{ site.url }}{{ post.url }}">
         <div class="item-content">
           <div class="container">
               <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="image" style="width:100%">

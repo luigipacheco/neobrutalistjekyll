@@ -21,17 +21,25 @@
     text-align: center;
     line-height: 233px;
   }
+  .project{
+    border: 5px solid #000000;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+  }
   .info{
-  border: 2px solid #E95420;
+  border: 5px solid #000000;
   height: 55px;
   width: 233px;
   line-height: 55px;
+  background: #FF4911;
+  box-shadow: 5px 5px rgb(0, 0, 0);
   }
   .small{
-    border: 2px dashed rgb(99, 99, 99); 
+    border: 3px dashed rgb(0, 0, 0); 
     height: 55px;
     width: 55px;
     line-height: 55px;
+    background: #61DB0D;
     }
   .item.muuri-item-hidden {
     z-index: 0;
@@ -80,8 +88,8 @@
     margin: 15px;
     margin-left: 5%;
     margin-right: 5%;
-    background:#272324;
-    color: #c9c9c9;
+    background:#0DDBA5;
+    color: #000000;
     /* background-image: url(/assets/images/bg.svg); */
     background-size: 100px;
  ;
@@ -131,14 +139,14 @@
     opacity: 0;
     position: absolute;
     top: 50%;
-    left: 20px;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    left: 50px;
+    transform: translate(-50%, -50%); 
+    -ms-transform: translate(-50%, -50%); 
     text-align: center;
   }
   
   .container:hover .image {
-    opacity: 0.5;
+    opacity: 0.9;
   }
   
   .container:hover .middle {
@@ -150,10 +158,11 @@
   .vertical { 
     /* border-left: 5px solid rgb(255, 255, 255);  */
     transform: rotate(270deg);
-    height: 20px;
+    border: 3px solid #000000;
+    height: 30px;
     width: 233px;
-    line-height: 20px;
-    background-color: #d6d6d6;
+    line-height: 30px;
+    background-color: #ffffff;
     color: #181818;
   } 
   .footer{
@@ -166,12 +175,13 @@
   }
   /* unvisited link */
 a:link {
-  color: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
 }
 
 /* visited link */
 a:visited {
-  color: rgb(197, 197, 197);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 /* mouse over link */
@@ -181,7 +191,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color:  #E95420;;
+  color:  #E95420;
 }
 .post{
   border: 1px dashed rgb(99, 99, 99); 
@@ -195,6 +205,7 @@ img {
   margin-right: auto;
   width: auto;
   max-width:100%;
+  border-radius: 7px;
 }
 time {
   margin-left: 10%;
@@ -206,11 +217,11 @@ time {
 }
 
 .filter-button {
-  background-color: #272324;
-  color: #bbbbbb;
-  border-style: dashed;
-  border: #bbbbbb;
-  border-width: 1px;
+  background-color: #DBD00D;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  color: #000000;
+  box-shadow: 5px 5px rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -222,5 +233,9 @@ time {
 }
 
 .filter-button:hover {
-  background-color: #555;
+  background-color: #ffffff;
+
+}
+.logo:hover{
+  color: #000000;
 }
